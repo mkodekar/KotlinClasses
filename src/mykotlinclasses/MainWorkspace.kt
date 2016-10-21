@@ -1,5 +1,6 @@
 package mykotlinclasses
 
+import mykotlinclasses.dataclasses.Customer
 import mykotlinclasses.dataclasses.People
 
 /**
@@ -19,4 +20,7 @@ fun main(args: Array<String>) {
     } else {
         println("different")
     }
+}
+class customer : Customer("", "", "") {
+
 }
