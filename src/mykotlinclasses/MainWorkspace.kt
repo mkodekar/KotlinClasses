@@ -2,6 +2,7 @@ package mykotlinclasses
 
 import mykotlinclasses.dataclasses.Customer
 import mykotlinclasses.dataclasses.People
+import java.io.File
 
 /**
  * Created by rkodekar on 10/22/16.
@@ -12,6 +13,19 @@ fun main(args: Array<String>) {
     // refer the output for this , named as without_annotation
     val people: People = People(1, "Rehan Kodekar", "mkodekar@zoho.com")
     val people1: People = People(1, "Rehan Kodekar", "mkodekar@zoho.com")
+
+    val nullable: Int? = 10
+    val nullable1: Int? = null
+
+
+    if (nullable != null) {
+        println(nullable)
+    }
+
+    println(nullable.toString())
+
+    val file = File("files").listFiles()
+    file?.size
 
     println(people)
 
