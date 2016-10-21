@@ -21,6 +21,6 @@ fun main(args: Array<String>) {
         println("different")
     }
 }
-class customer : Customer("", "", "") {
+class customer : Customer("Rehan", "mkodekar@zoho.com", "Mumbai") {
 
 }
