@@ -40,13 +40,7 @@ class Conditional {
                 }
             }
             println(whenValue)
-            pos =example
         }
-        do {
-            print("This is position $pos \n")
-        }while (pos > 1 && pos < 10)
-
-
 
         val whenValue2 = when(intVal2) {
 

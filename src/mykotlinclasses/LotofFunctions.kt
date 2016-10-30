@@ -1,5 +1,7 @@
 package mykotlinclasses
 
+import mykotlinclasses.dataclasses.Loops
+
 /**
  * Created by rkodekar on 10/30/16.
  */
@@ -14,6 +16,8 @@ fun doSomthing(name: String, age: Int = 0, toUpperCase: Boolean = false) {
 
 fun main(args: Array<String>) {
     val conditionals : Conditional = Conditional()
-    doSomthing("Rehan", 26, true)
-    conditionals.main(args)
+    val loops: Loops = Loops()
+//    doSomthing("Rehan", 26, true)
+//    conditionals.main(args)
+    loops.work()
 }
